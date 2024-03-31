@@ -6,7 +6,8 @@ if (( $EUID != 0 )); then
 fi
 
 rm -rf /var/lib/containers
-mkdir -p /home/.steamos/var/lib/containers
+mkdir -p /var/lib/containers
+mkdir -p /home/.steamos/offload//var/lib/containers
 
 wget -P /etc/systemd/system https://raw.githubusercontent.com/dnkmmr69420/steamos-offload-containers/main/var-lib-containers.mount
 
