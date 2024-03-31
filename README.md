@@ -8,3 +8,19 @@ To back up anything that is currently in `/var/lib/containers` (if you have anyt
 ```bash
 sudo mv /var/lib/containers /home/.steamos/offload/var/lib/containers
 ```
+
+## Install
+
+To install, run this command
+
+```bash
+curl -s https://raw.githubusercontent.com/dnkmmr69420/steamos-offload-containers/main/install.sh | sudo bash
+```
+
+## Uninstall
+
+To uninstall, run this command
+
+```bash
+curl -s
+```
