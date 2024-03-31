@@ -22,5 +22,5 @@ curl -s https://raw.githubusercontent.com/dnkmmr69420/steamos-offload-containers
 To uninstall, run this command
 
 ```bash
-curl -s
+curl -s https://raw.githubusercontent.com/dnkmmr69420/steamos-offload-containers/main/uninstall.sh | sudo bash
 ```
