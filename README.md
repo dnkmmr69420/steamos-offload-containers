@@ -1,5 +1,5 @@
 # steamos-offload-containers
-steamos systemd unit for bindimg /var/lib/containers to /home/.steamos/var/lib/containers
+steamos systemd unit for bindimg /var/lib/containers to /home/.steamos/offload/var/lib/containers
 
 ## Backing up
 
