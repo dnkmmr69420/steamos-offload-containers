@@ -1,0 +1,11 @@
+Unit]
+Description=SteamOS Offload - /var/lib/containers
+
+[Mount]
+What=/home/.steamos/offload/var/lib/containers
+Where=/var/lib/containers
+Type=none
+Options=bind
+
+[Install]
+WantedBy=steamos-offload.target
